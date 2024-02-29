@@ -14,5 +14,5 @@ public class Order
     public Status OrderStatus { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
-    public Client Client { get; set; }
+    public User User { get; set; }
 }
